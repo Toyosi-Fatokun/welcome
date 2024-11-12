@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Muli', sans-serif;
+    background-color: #fff;
+}
+
+.container-wrap {
+    background-color: black;
+    color: #f0f0f0;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 8%;
+    height: 90vh;
+    width: 130vh;
+}
+
+.first-container {
+    margin-left: -38%;
+}
+
+.Welcome {
+    padding-top: 18%;
+    font-size: 58px;
+    margin-bottom: 10px;
+}
+
+.skip {
+    padding: 7px;
+    margin-left: 30px;
+    margin-top: 10%;
+    font-style: italic;
+    border: 2px solid #f0f0f0;
+}
+
+.d {
+    background-color: blueviolet;
+    width: 160px;
+    height: 160px;
+    margin-left: 21%;
+    border-radius: 100%;
+    margin-top: -32%;
+    position: absolute;
+    opacity: 0.5;
+    filter: blur(1px);
+}
+
+.second-container {
+    background-color: black;
+    box-shadow: 0 0 2px #f0f0f0;
+    border-radius: 10px;
+    margin-left: 62%;
+    margin-right: 4%;
+    margin-top: -29%;
+    height: 71vh;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+
+.login {
+    margin-bottom: 0;  
+}
+
+.glad {
+    font-size: 10px;
+}
+
+.username-1 {
+    border: 1px solid #f0f0f0;
+    border-radius: 10px;
+    padding: 4%;
+    margin-right: 20px;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.username-2 {
+    border: 1px solid #f0f0f0;
+    border-radius: 10px;
+    padding: 4%;
+    margin-right: 20px;
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 2px; 
+}
+
+.l {
+    background-color: blueviolet;
+    font-size: 8px;
+    padding: 2px;
+    border-radius: 4px;
+}
+
+.me {
+    font-size: 10px;
+    margin-left: 0;
+}
+
+.login-2 {
+    background-color: blueviolet;
+    color: #f0f0f0;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 600;
+    padding: 4%;
+    width: 92%;
+    font-size: 13px;
+    margin-bottom: 0;
+    margin-top: 8px;
+}
+
+.forget {
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.or {
+    color: grey;
+    font-size: 12px;
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+.third-container {
+    font-size: 10px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.last {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.g {
+    background-color: blueviolet;
+    width: 120px;
+    height: 120px;
+    margin-left: 35%;
+    border-radius: 100%;
+    margin-top: -10%;
+    position: absolute;
+    opacity: 0.5;
+    filter: blur(1px);
+}
